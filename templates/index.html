@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+  </head>
+      <body background="D:\PROgramming\vs code\NLP\sentiment Anlysisi\images.jpg">
+  		<div class="container">
+    	<div class = "centered">
+           <header class="text-center text-white">
+            	<title> sentiment analysis app </title>
+
+            <h1 class = 'header'>
+              Sentiment Analysis 
+            </h1>
+
+            <p class = 'desc'>
+              Type a sentence, click on the submit button and wait for your 				prediction.
+            </p>
+
+            <form method="POST" onSubmit = 'return validate();' class='form'>
+                <input name="text" style="border: 2px solid black;" name="text" width="400" size="100"><br><br><br>
+                <input type="submit" onclick = 'this.form.submit();'>
+            </form>
+            <br>
+            <br>
+
+            <p id='demo' style="color:maroon;">{{ variable }} </p> 
+
+            
+            </div>
+            </div>
+            </body>
+<style>
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.header {
+  color: black
+}
+
+p { color:darkgreen; font-family: 'Helvetica Neue', sans-serif; font-size: 23px; line-height: 105px; margin: 0 0 24px; text-justify: inter-word; }
+
+h1 {  color :blue ; font-family: 'Algerian' , sans-serif ; font-size: 35px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+
+#demo {
+  color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 22px; line-height: 24px; margin: 0 0 24px; text-justify: inter-word;
+}
+
+input[type=submit] {
+  background-color: #ff6005; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  border-radius: 16px;
+  border:3.5px solid greenyellow;
+}
+
+input[type=submit]:hover {
+  background-color: #b0540e;
+}
+
+
+
+
+</style>
+</html>
