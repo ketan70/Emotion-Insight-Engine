@@ -1,5 +1,5 @@
 # Sentiment Analysis
-This project is a sentiment analysis tool that analyzes the sentiment of sentences and determines whether they are positive or negative.
+sentiment analysis tool designed to unravel the emotional tapestry of sentences or spoken words, skillfully discerning between the harmonious notes of positivity and the subtle nuances of negativity.
 
 ## Technologies Used
 Python |
